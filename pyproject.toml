@@ -5,7 +5,8 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "opentrack"
 version = "0.0.1"
-description = "Private provider-neutral racing snapshot models for RC"
+description = "Provider-neutral horse-racing snapshot models in the OpenBook Data Standards family"
+readme = "README.md"
 requires-python = ">=3.11"
 
 [tool.setuptools.packages.find]
