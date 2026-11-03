@@ -124,5 +124,4 @@ projects. No real provider account or API key is needed for OpenTrack CI.
 
 ## License
 
-No license has been declared yet. Public repository visibility alone does not
-grant an open-source license; a licensing decision is still pending.
+Apache-2.0 — see [LICENSE](LICENSE).
