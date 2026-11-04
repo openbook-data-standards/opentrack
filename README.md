@@ -95,7 +95,8 @@ Provider data
     -> research, display or other consumer application
 ```
 
-This repository contains the provider-neutral models and synthetic examples.
+This repository contains the provider-neutral models and synthetic examples
+(see [`examples/`](examples/) for a runnable harness snapshot dataset).
 It does **not** contain provider clients, credentials, proprietary mappings,
 feed payloads, the consumer demo, account handling or bet execution.
 

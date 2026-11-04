@@ -1,0 +1,129 @@
+{
+  "source": "synthetic-harness",
+  "source_id": "HVR-2026-01-15-R4",
+  "name": "Race 4 — Synthetic Trotters Claiming",
+  "meeting": "Example Valley Raceway",
+  "country": "CA",
+  "scheduled_at": "2026-01-15T20:30:00Z",
+  "cutoff_at": "2026-01-15T20:29:00Z",
+  "observed_at": "2026-01-15T19:45:12Z",
+  "source_status": "open",
+  "discipline": "trot",
+  "runners": [
+    {
+      "source_id": "hvr-r4-1",
+      "name": "Synthetic Speed",
+      "number": 1,
+      "draw": 1,
+      "withdrawn_at": null,
+      "trainer": "A. Example",
+      "rider": "D. Driver",
+      "form": "1-2-4",
+      "age": 5
+    },
+    {
+      "source_id": "hvr-r4-2",
+      "name": "Demo Gait",
+      "number": 2,
+      "draw": 4,
+      "withdrawn_at": null,
+      "trainer": "B. Sample",
+      "rider": "E. Reins",
+      "form": "3-1-1",
+      "age": 4
+    },
+    {
+      "source_id": "hvr-r4-3",
+      "name": "Placeholder Pride",
+      "number": 3,
+      "draw": null,
+      "withdrawn_at": "2026-01-15T18:05:00Z",
+      "trainer": "C. Trial",
+      "rider": "F. Sulky",
+      "form": null,
+      "age": 6
+    }
+  ],
+  "markets": [
+    {
+      "source_id": "hvr-r4-win",
+      "source_group": "race-4",
+      "kind": "win",
+      "places": null,
+      "sequence": "12",
+      "selections": [
+        {
+          "source_id": "hvr-r4-win-1",
+          "runner_id": "hvr-r4-1",
+          "source_status": "active",
+          "quoted_value": "2.40",
+          "decimal_odds": "2.40",
+          "minimum_stake": "1",
+          "maximum_stake": null,
+          "source_url": null,
+          "parameters": null
+        },
+        {
+          "source_id": "hvr-r4-win-2",
+          "runner_id": "hvr-r4-2",
+          "source_status": "active",
+          "quoted_value": "3.10",
+          "decimal_odds": "3.10",
+          "minimum_stake": "1",
+          "maximum_stake": null,
+          "source_url": null,
+          "parameters": null
+        },
+        {
+          "source_id": "hvr-r4-win-3",
+          "runner_id": "hvr-r4-3",
+          "source_status": "removed",
+          "quoted_value": null,
+          "decimal_odds": null,
+          "minimum_stake": null,
+          "maximum_stake": null,
+          "source_url": null,
+          "parameters": null
+        }
+      ]
+    },
+    {
+      "source_id": "hvr-r4-place",
+      "source_group": "race-4",
+      "kind": "place",
+      "places": 2,
+      "sequence": "13",
+      "selections": [
+        {
+          "source_id": "hvr-r4-place-1",
+          "runner_id": "hvr-r4-1",
+          "source_status": "active",
+          "quoted_value": "1.35",
+          "decimal_odds": "1.35",
+          "minimum_stake": "1",
+          "maximum_stake": null,
+          "source_url": null,
+          "parameters": null
+        },
+        {
+          "source_id": "hvr-r4-place-2",
+          "runner_id": "hvr-r4-2",
+          "source_status": "active",
+          "quoted_value": "1.60",
+          "decimal_odds": "1.60",
+          "minimum_stake": "1",
+          "maximum_stake": null,
+          "source_url": null,
+          "parameters": null
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Synthetic data only — no real venue, provider, or race.",
+    "Driver is carried in `rider`: that mapping is one plausible choice, not a settled contract.",
+    "Gait is flattened to `discipline: trot`; pacing and mixed-gait cards are unvalidated.",
+    "Start method (gate vs walk-up vs volt start) is not modeled.",
+    "draw is null on the withdrawn runner: providers disagree on retaining post positions after scratches."
+  ]
+}
